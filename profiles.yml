@@ -1,0 +1,7 @@
+crypto_market:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: crypto_bank.duckdb
+      threads: 4
