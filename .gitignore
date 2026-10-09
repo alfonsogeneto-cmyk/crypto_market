@@ -1,0 +1,13 @@
+# Entorno de Python
+.venv/
+__pycache__/
+
+# Artefactos de dbt (se regeneran en cada ejecución)
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Base de datos de DuckDB (se reconstruye con dbt)
+*.duckdb
+*.duckdb.wal
